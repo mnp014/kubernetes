@@ -82,8 +82,8 @@ View the kubectl configuration:
 ```
 kubectl config view
 ```
-##### Note: For more information about kubectlcommands, see the kubectl overview.
-Create a Service
+###### Note: For more information about kubectlcommands, see the kubectl overview.
+##### Create a Service
 By default, the Pod is only accessible by its internal IP address within the Kubernetes cluster. To make the hello-node Container accessible from outside the Kubernetes virtual network, you have to expose the Pod as a Kubernetes Service.
 
 Expose the Pod to the public internet using the kubectl expose command:
